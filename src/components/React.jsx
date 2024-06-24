@@ -36,21 +36,21 @@ const React = () => {
         tags="React, React Redux, Tailwind CSS, shopping Items Api, Axio"
       />
       <Card
-        projectName="Tic-Tac-Toe"
-        liveLink="https://tic-tac-toe-r16.netlify.app"
-        githubLink="https://github.com/DesaiVishal-16/React-Projects/tree/main/Beginner/Tic-Tac-Toe"
-        src={ticTacToe}
-        title="Tic-Tac-Toe"
-        des="Play Game"
-        tags="React, Tailwind"
-      />
-      <Card
         projectName="TO-DO-Lists"
         liveLink="https://todolists-r16.vercel.app"
         githubLink="https://github.com/DesaiVishal-16/React-Projects/tree/main/Beginner/TO-DO-Lists"
         src={toDoLists}
         title="TO-DO-Lists App"
         des="In the tasks app, utilize the 'Add Tasks' button to input details, 'Edit' to update them, 'Delete' to remove tasks, and the search bar to filter by name or criteria."
+        tags="React, Tailwind"
+      />
+      <Card
+        projectName="Tic-Tac-Toe"
+        liveLink="https://tic-tac-toe-r16.netlify.app"
+        githubLink="https://github.com/DesaiVishal-16/React-Projects/tree/main/Beginner/Tic-Tac-Toe"
+        src={ticTacToe}
+        title="Tic-Tac-Toe"
+        des="Play Game"
         tags="React, Tailwind"
       />
     </div>
