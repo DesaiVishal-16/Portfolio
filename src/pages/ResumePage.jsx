@@ -108,7 +108,7 @@ const ResumePage = () => {
         </div>
         {/* Resume button Download */}
         <div className="resume-download-btn ml-10 sm:ml-16 relative bottom-16 sm:bottom-0">
-          <a href="https://drive.google.com/file/d/1-7543TdbgrMxAtpnLWeIceHPFqCfdNZP/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1-E9YUAMhQ4fM9LU7-HPzobLL9JCnvvU3/view?usp=drive_link">
             <button className="border-2 border-gray-800 text-white bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-xl font-semibold">
               Access Resume on Drive
             </button>
