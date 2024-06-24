@@ -7,6 +7,7 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
+import profileImg from "../assets/profilephoto.png";
 
 const LeftContainter = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,11 +34,8 @@ const LeftContainter = () => {
       </button>
       {/* Profile */}
       <ul className="flex xl:flex-col justify-start items-center xl:justify-center items-center gap-2 sm:gap-5 py-5 px-5">
-        <li className="">
-          <img
-            className="rounded-full w-14 sm:w-20 lg:w-24"
-            src="https://placehold.co/100x100"
-          />
+        <li className="profile-img">
+          <img className="rounded-full w-14 sm:w-20 lg:w-24" src={profileImg} />
         </li>
         <li className="flex flex-col gap-1 md:gap-3">
           <h1 className="text-base pb-1 sm:text-2xl lg:text-4xl text-white">
