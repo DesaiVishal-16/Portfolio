@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.left-container {
+  background-color: #1e1e1f;
+}
+#position {
+  background-color: #323232;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.about-details {
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  display: block;
+}
+
+.card .absolute {
+  transform: translateY(-100%);
+}
+
+.group:hover .absolute {
+  transform: translateY(0);
+}
