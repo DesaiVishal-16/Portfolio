@@ -22,24 +22,6 @@ const ChromeExtension = () => {
         des="The app offers real-time messaging with WebSocket, user authentication, and presence/status indicators. It supports rich text formatting, message history, and notifications for new messages and mentions."
         tags="React,Redux,Tailwind CSS,Axios,React Router,Firebase"
       />
-      <Card
-        projectName="weatherPilot"
-        liveLink="https://weather-app-r16.vercel.app"
-        githubLink="https://github.com/DesaiVishal-16/React-Projects/tree/main/Intermediate/Weather-App"
-        src={taskEase}
-        title="Weather Forecast App"
-        des="The app displays real-time weather conditions, provides detailed forecasts, and sends alerts for severe weather. It includes interactive maps, geolocation services, and customizable notifications for multiple locations."
-        tags="React,Weather Api,GeoLocation,Axios,Tailwind,React Context"
-      />
-      <Card
-        projectName="weatherPilot"
-        liveLink="https://weather-app-r16.vercel.app"
-        githubLink="https://github.com/DesaiVishal-16/React-Projects/tree/main/Intermediate/Weather-App"
-        src={taskEase}
-        title="Weather Forecast App"
-        des="The app displays real-time weather conditions, provides detailed forecasts, and sends alerts for severe weather. It includes interactive maps, geolocation services, and customizable notifications for multiple locations."
-        tags="React,Weather Api,GeoLocation,Axios,Tailwind,React Context"
-      />
     </div>
   );
 };
