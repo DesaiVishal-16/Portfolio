@@ -17,7 +17,7 @@ const LeftContainter = () => {
   return (
     <div
       id="left-container"
-      className="left-container bg-neutral-800 border-2 border-gray-700 rounded-3xl bg-gray-800 w-full xl:w-72 h-auto order-1"
+      className="left-container bg-neutral-800 border-2 border-gray-700 rounded-3xl w-full lg:w-80 h-fit lg:h-auto order-1 pb-6"
     >
       <button
         onClick={toggleButton}
@@ -71,7 +71,7 @@ const LeftContainter = () => {
             </div>
             <div>
               <h1 className="text-gray-400 text-sm"> Currently Applying for</h1>{" "}
-              <span className="text-gray-200">Frontend Role </span>
+              <span className="text-gray-200">Web Developer Role </span>
             </div>
           </li>
           <li id="Email" className="flex items-center gap-4">
@@ -124,37 +124,29 @@ const LeftContainter = () => {
             <span className="block w-full h-0.5 bg-gray-700"></span>
           </div>
           {/* Links */}
-          <div className="flex pl-10 gap-10">
-            <li id="Github" className="flex items-center gap-4" title="Github">
+          <li className="flex justify-center gap-4 sm:gap-8 py-2 px-1">
+            <div id="Github" title="Github">
               <div className="border-t-2 border-l-2 border-gray-700 hover:border-yellow-500 rounded-lg p-1">
                 <a href="https://github.com/DesaiVishal-16">
                   <FaGithub className="fill-yellow-500 text-xl" />
                 </a>
               </div>
-            </li>
-            <li
-              id="Leetcode"
-              className="flex items-center gap-4"
-              title="Leetcode"
-            >
+            </div>
+            <div id="Leetcode" title="Leetcode">
               <div className="border-t-2 border-l-2 border-gray-700 hover:border-yellow-500 rounded-lg p-1">
                 <a href="https://leetcode.com/u/vishaldesaidotcom">
                   <SiLeetcode className="fill-yellow-500 text-xl" />
                 </a>
               </div>
-            </li>
-            <li
-              id="Linekdin"
-              className="flex items-center gap-4"
-              title="Linkedin"
-            >
+            </div>
+            <div id="Linkedin" title="Linkedin">
               <div className="border-t-2 border-l-2 border-gray-700 hover:border-yellow-500 rounded-lg p-1">
                 <a href="https://www.linkedin.com/in/vishaldesai16">
                   <FaLinkedin className="fill-yellow-500 text-xl" />
                 </a>
               </div>
-            </li>
-          </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
