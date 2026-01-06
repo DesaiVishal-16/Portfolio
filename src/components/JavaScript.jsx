@@ -6,7 +6,7 @@ import tictactoe from ".././assets/tic-tac-toe-js.png";
 import todolists from ".././assets/to-do-lists-js.png";
 const JavaScript = () => {
   return (
-    <div className="text-white grid grid-cols-1 sm:grid-cols-2 pb-96">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pb-20">
       <Card
         projectName="Notes"
         liveLink="https://notes-16.vercel.app"

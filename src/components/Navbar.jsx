@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <nav
       id="position"
-      className="border-2 border-gray-700  h-auto 
-      w-full fixed bottom-0 left-0 px-20 py-5 rounded-t-2xl bg-blur-sm opacity-85 lg:opacity-100 z-20
-      lg:w-fit  lg:right-5 xl:right-40 lg:bottom-auto lg:left-auto lg:rounded-bl-2xl lg:rounded-tl-sm lg:rounded-tr-2xl lg:px-14 lg:py-5"
+      className="border-2 border-gray-700 h-auto 
+      w-full fixed bottom-0 left-0 px-10 py-4 rounded-t-2xl bg-neutral-800/80 backdrop-blur-md z-20
+      lg:absolute lg:top-0 lg:right-0 lg:bottom-auto lg:left-auto lg:w-fit lg:rounded-bl-2xl lg:rounded-tr-2xl lg:rounded-tl-none lg:px-10 lg:py-4 lg:border-t-0 lg:border-r-0"
     >
       <ul className="text-gray-300 text-xs sm:text-base flex gap-5 sm:gap-10 justify-center">
         <NavLink

@@ -35,7 +35,7 @@ const ContactPage = () => {
         Contact
         <span className="block w-8 sm:w-10 h-1 sm:h-1.5 bg-yellow-500 rounded mt-4"></span>
       </h1>
-      <div className="overflow-y-auto h-screen hide-scrollbar scroll-smooth pb-96">
+      <div className="overflow-y-auto h-[calc(100vh-250px)] hide-scrollbar scroll-smooth pb-96">
         <h1 className="text-xl text-gray-200">Contact Form</h1>
         <form className="mt-5" onSubmit={onSubmit}>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
