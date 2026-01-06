@@ -7,7 +7,7 @@ import toDoLists from "../assets/to-do-lists-react.png";
 
 const React = () => {
   return (
-    <div className="text-white grid grid-cols-1 sm:grid-cols-2 pb-96">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pb-20">
       <Card
         projectName="Address Book"
         liveLink="https://address-book-r16.netlify.app"
